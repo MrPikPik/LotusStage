@@ -6,10 +6,10 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Water
-  m_Shader: {fileID: 4800000, guid: 0c871144d09c92b44aa591c7e1bb4d07, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
+  m_Name: Banner
+  m_Shader: {fileID: 4800000, guid: 57ce00510d48d2b4b8e1108a30b6d411, type: 3}
+  m_ShaderKeywords: _ADDWIND_ON
+  m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -18,6 +18,10 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _Albedo:
+        m_Texture: {fileID: 2800000, guid: a1f69cfd8100a204eafffb186153780b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _BumpMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -38,12 +42,20 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Emissive:
+        m_Texture: {fileID: 2800000, guid: a1f69cfd8100a204eafffb186153780b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
         m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal:
+        m_Texture: {fileID: 2800000, guid: e03472a89f740654e8b678eee5a7d3e6, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
@@ -54,8 +66,12 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _WaterBump:
-        m_Texture: {fileID: 2800000, guid: 5cb68ce20d7f88849bd3536a5b2910af, type: 3}
+    - _TextureSample0:
+        m_Texture: {fileID: 2800000, guid: 16d574e53541bba44a84052fa38778df, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WindNoiseTexture:
+        m_Texture: {fileID: 2800000, guid: 16d574e53541bba44a84052fa38778df, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _texcoord:
@@ -63,33 +79,41 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - _AddWind: 1
     - _BumpScale: 1
+    - _ColorSpecularPower: 0.2
+    - _ColoredSpecular: 0
     - _Cutoff: 0.5
-    - _DepthFadeDistance: 2.1
+    - _DesaturationAmount: 1
     - _DetailNormalMapScale: 1
+    - _DiffuseToEmissiveRatio: 1
     - _DstBlend: 0
+    - _EmissiveBoost: 2.35
+    - _EmissiveStrength: 1.25
+    - _FresnelStrength: 0
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
     - _Metallic: 0
     - _Mode: 0
-    - _NormalScale: 1
+    - _NormalMapScale: 1.06
     - _OcclusionStrength: 1
-    - _Opacity: 0.95
     - _Parallax: 0.02
+    - _Smoothness: 0.8
     - _SmoothnessTextureChannel: 0
-    - _Specular: 0.538
     - _SpecularHighlights: 1
     - _SrcBlend: 1
-    - _TextureScale1: 26.45
-    - _TextureScale2: 54.4
     - _UVSec: 0
+    - _WindSpeed: 0.545
+    - _WindStrength: 5.4
+    - _WindStrengthX: 7.66
+    - _WindStrengthY: 1.59
+    - _WindStrengthZ: 0
+    - _WobbleStrength: 0.001
     - _ZWrite: 1
     - __dirty: 0
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _WaterBaseColor: {r: 0.18823527, g: 0.33133188, b: 0.7490196, a: 0}
-    - _WaterReflectiveColor: {r: 0.1875, g: 0.61120105, b: 0.75, a: 0}
-    - _WaveDirection1: {r: 0.005, g: 0.0025, b: 0, a: 0}
-    - _WaveDirection2: {r: -0.0025, g: -0.005, b: 0, a: 0}
+    - _EmissiveTine: {r: 1, g: 1, b: 1, a: 0}
+    - _EmissiveTint: {r: 1, g: 1, b: 1, a: 0}
