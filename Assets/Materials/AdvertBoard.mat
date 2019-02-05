@@ -7,7 +7,7 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: AdvertBoard
-  m_Shader: {fileID: 4800000, guid: 57ce00510d48d2b4b8e1108a30b6d411, type: 3}
+  m_Shader: {fileID: 4800000, guid: a02444e251ff6ad44ac97e7be447c25f, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
@@ -66,12 +66,20 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _ScanlineTexture:
+        m_Texture: {fileID: 2800000, guid: 05aa43dbbeddb24419e5b5b6e734d595, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SmoothnessTexture:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SpecularTexture:
         m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample0:
+        m_Texture: {fileID: 2800000, guid: 05aa43dbbeddb24419e5b5b6e734d595, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _WindNoiseTexture:
@@ -98,11 +106,15 @@ Material:
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
+    - _MaxBrightness: 1
     - _Metallic: 0
+    - _MinBrightness: 0.335
     - _Mode: 0
     - _NormalMapScale: 1
     - _OcclusionStrength: 1
     - _Parallax: 0.02
+    - _ScanlineSpeed: 0.1
+    - _ScanlineTiling: 6.72
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SmoothnessUseTexture: 0
@@ -121,3 +133,4 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _EmissiveTint: {r: 1, g: 1, b: 1, a: 0}
+    - _ScnalineSpeed: {r: -0.08, g: 0.002, b: 0, a: 0}

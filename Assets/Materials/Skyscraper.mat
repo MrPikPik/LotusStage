@@ -85,7 +85,7 @@ Material:
     m_Floats:
     - _AddWind: 0
     - _BumpScale: 1
-    - _ColorSpecularPower: 0.358
+    - _ColorSpecularPower: 0
     - _ColoredSpecular: 0
     - _Cutoff: 0.5
     - _DesaturationAmount: 1
@@ -93,7 +93,7 @@ Material:
     - _DiffuseToEmissiveRatio: 0.663
     - _DstBlend: 0
     - _EmissiveBoost: 6.3
-    - _EmissiveStrength: 2.53
+    - _EmissiveStrength: 1.15
     - _FresnelStrength: 0
     - _GlossMapScale: 1
     - _Glossiness: 0.5

@@ -43,7 +43,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Emissive:
-        m_Texture: {fileID: 2800000, guid: bdedd1d122defbd4fbce4616369638bf, type: 3}
+        m_Texture: {fileID: 2800000, guid: a6bfae6e584b0ee40bec65d127ebd492, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
@@ -66,7 +66,19 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SmoothnessTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecularTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WindNoiseTexture:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -75,16 +87,17 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - _AddWind: 0
     - _BumpScale: 1
     - _ColorSpecularPower: 0.2
     - _ColoredSpecular: 0
     - _Cutoff: 0.5
     - _DesaturationAmount: 1
     - _DetailNormalMapScale: 1
-    - _DiffuseToEmissiveRatio: 0.65
+    - _DiffuseToEmissiveRatio: 0
     - _DstBlend: 0
-    - _EmissiveBoost: 2.41
-    - _EmissiveStrength: 3.59
+    - _EmissiveBoost: 3.97
+    - _EmissiveStrength: 3
     - _FresnelStrength: 0
     - _GlossMapScale: 1
     - _Glossiness: 0.5
@@ -96,13 +109,21 @@ Material:
     - _Parallax: 0.02
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
+    - _SmoothnessUseTexture: 0
     - _SpecularHighlights: 1
+    - _SpecularUseTexture: 0
     - _SrcBlend: 1
     - _UVSec: 0
+    - _WindSpeed: 0.1
+    - _WindStrengthX: 5
+    - _WindStrengthY: 5
+    - _WindStrengthZ: 5
     - _ZWrite: 1
     - __dirty: 0
     m_Colors:
+    - _AlbedoTint: {r: 1, g: 1, b: 1, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _EmissiveTine: {r: 1, g: 1, b: 1, a: 0}
+    - _EmissiveTint: {r: 1, g: 1, b: 1, a: 0}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
